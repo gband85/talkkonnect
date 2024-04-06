@@ -32,7 +32,7 @@ package main
 
 import (
 	"flag"
-	"github.com/talkkonnect/talkkonnect"
+	"github.com/gband85/talkkonnect"
 	"fmt"
 	"log"
 	"os"
