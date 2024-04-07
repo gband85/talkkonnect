@@ -48,6 +48,7 @@ apt-get install git -y
 
 ## Add talkkonnect user to the system
 adduser --disabled-password --disabled-login --gecos "" talkkonnect
+usermod -a -G cdrom,audio,video,plugdev,users,dialout,dip,input,gpio,adm talkkonnect
 usermod -a -G cdrom,audio,video,plugdev,users,dialout,dip,input,gpio,adm $USERNAME
 
 ## Create the log file
