@@ -66,11 +66,11 @@ echo "64 bit processor"
 wget -nc https://go.dev/dl/$GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz $GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz
 tar -zxvf /usr/local/$GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz
 fi
+fi
 
-echo export PATH=$PATH:/usr/local/go/bin >>  ~/.bashrc
-echo export GOPATH=/home/talkkonnect/gocode >>  ~/.bashrc
-echo export GOBIN=/home/talkkonnect/bin >>  ~/.bashrc
-echo export GO111MODULE="auto" >>  ~/.bashrc
+#rm /usr/local/bin/go
+ln -sf /usr/local/go/bin/go /usr/local/bin/go
+
 echo "alias tk='cd /home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/'" >>  ~/.bashrc
 
 
