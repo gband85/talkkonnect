@@ -54,7 +54,8 @@ cputype=`lscpu | grep Architecture | cut -d ":" -f 2 | sed 's/ //g'`
 bitsize=`getconf LONG_BIT`
 
 cd /usr/local
-
+if [ "$GO_VERSION" != "$GOLANG_LATEST_STABLE" ]
+then 
 if [ $bitsize == '32' ]
 then
 echo "32 bit processor"
