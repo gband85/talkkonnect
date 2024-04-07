@@ -83,7 +83,7 @@
       </autoprovisioning>
      <beacon enabled="false">
         <beacontimersecs>10</beacontimersecs>
-        <beaconfileandpath>/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/Beacon.wav</beaconfileandpath>
+        <beaconfileandpath>/usr/local/share/talkkonnect/soundfiles/voiceprompts/Beacon.wav</beaconfileandpath>
         <localplay>true</localplay>
         <localvolume>50</localvolume>
         <gpioenabled>true</gpioenabled>
@@ -96,28 +96,28 @@
         <language>en</language>
         <sound action="message" file="" enabled="true"/>
         <sound action="participants" enabled="false"/>
-        <sound action="channelup" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/ChannelUp.wav" blocking="false" enabled="false"/>
-        <sound action="channeldown" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/ChannelDown.wav" blocking="false" enabled="false"/>
-        <sound action="mutespeaker" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/MuteSpeaker.wav" blocking="true" enabled="true"/>
-        <sound action="unmutespeaker" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/UnmuteSpeaker.wav" blocking="true" enabled="true"/>
-        <sound action="currentvolumelevel" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/CurrentVolumeLevel.wav" blocking="false" enabled="false"/>
-        <sound action="digitalvolumeup" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/DigitalVolumeUp.wav" blocking="false" enabled="false"/>
-        <sound action="digitalvolumedown" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/DigitalVolumeDown.wav" blocking="false" enabled="false"/>
-        <sound action="listserverchannels" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/ListServerChannels.wav" blocking="false" enabled="true"/>
-        <sound action="starttransmitting" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/StartTransmitting.wav" blocking="false" enabled="true"/>
-        <sound action="stoptransmitting" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/StopTransmitting.wav" blocking="false" enabled="true"/>
-        <sound action="listonlineusers" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/ListOnlineUsers.wav" blocking="false" enabled="true"/>
-        <sound action="playstream" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/PlayChimes.wav" blocking="false" enabled="true"/>
-        <sound action="requestgpsposition" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/RequestGpsPosition.wav" blocking="false" enabled="true"/>
+        <sound action="channelup" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/ChannelUp.wav" blocking="false" enabled="false"/>
+        <sound action="channeldown" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/ChannelDown.wav" blocking="false" enabled="false"/>
+        <sound action="mutespeaker" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/MuteSpeaker.wav" blocking="true" enabled="true"/>
+        <sound action="unmutespeaker" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/UnmuteSpeaker.wav" blocking="true" enabled="true"/>
+        <sound action="currentvolumelevel" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/CurrentVolumeLevel.wav" blocking="false" enabled="false"/>
+        <sound action="digitalvolumeup" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/DigitalVolumeUp.wav" blocking="false" enabled="false"/>
+        <sound action="digitalvolumedown" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/DigitalVolumeDown.wav" blocking="false" enabled="false"/>
+        <sound action="listserverchannels" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/ListServerChannels.wav" blocking="false" enabled="true"/>
+        <sound action="starttransmitting" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/StartTransmitting.wav" blocking="false" enabled="true"/>
+        <sound action="stoptransmitting" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/StopTransmitting.wav" blocking="false" enabled="true"/>
+        <sound action="listonlineusers" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/ListOnlineUsers.wav" blocking="false" enabled="true"/>
+        <sound action="playstream" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/PlayChimes.wav" blocking="false" enabled="true"/>
+        <sound action="requestgpsposition" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/RequestGpsPosition.wav" blocking="false" enabled="true"/>
         <sound action="nextserver" file="" blocking="false" enabled="true"/>
         <sound action="previousserver" file="" blocking="false" enabled="true"/>
         <sound action="startscanning" file="" blocking="false" enabled="false"/>
-        <sound action="panicsimulation" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/PanicSimulation.wav" blocking="false" enabled="true"/>
-        <sound action="printxmlconfig" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/PrintXmlConfig.wav" blocking="false" enabled="true"/>
-        <sound action="sendemail" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/SendEmail.wav" blocking="false" enabled="true"/>
-        <sound action="displaymenu" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/DisplayMenu.wav" blocking="false" enabled="true"/>
-        <sound action="quittalkkonnect" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/QuitTalkkonnect.wav" blocking="true" enabled="true"/>
-        <sound action="talkkonnectloaded" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/voiceprompts/Loaded.wav" blocking="true" enabled="true"/>
+        <sound action="panicsimulation" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/PanicSimulation.wav" blocking="false" enabled="true"/>
+        <sound action="printxmlconfig" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/PrintXmlConfig.wav" blocking="false" enabled="true"/>
+        <sound action="sendemail" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/SendEmail.wav" blocking="false" enabled="true"/>
+        <sound action="displaymenu" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/DisplayMenu.wav" blocking="false" enabled="true"/>
+        <sound action="quittalkkonnect" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/QuitTalkkonnect.wav" blocking="true" enabled="true"/>
+        <sound action="talkkonnectloaded" file="/usr/local/share/talkkonnect/soundfiles/voiceprompts/Loaded.wav" blocking="true" enabled="true"/>
         <sound action="pingservers" file="" blocking="false" enabled="true"/>
       </tts>
       <smtp enabled="false">
@@ -131,35 +131,35 @@
         <googlemapsurl>true</googlemapsurl>
       </smtp>
       <sounds>
-        <sound event="joinedchannel" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/events/appear.wav" volume="10" blocking="false" enabled="true"/>
-        <sound event="leftchannel" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/events/left.wav" volume="30" blocking="false" enabled="true"/>
-        <sound event="message" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/events/message.wav" volume="10" blocking="true" enabled="true"/>
-        <sound event="alert" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/alerts/alert.wav" volume="10" blocking="false" enabled="false"/>
-        <sound event="incommingbeep" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/Waterdrop.wav" volume="50" blocking="true" enabled="false"/>
-        <sound event="rogerbeep" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/Image.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="joinedchannel" file="/usr/local/share/talkkonnect/soundfiles/events/appear.wav" volume="10" blocking="false" enabled="true"/>
+        <sound event="leftchannel" file="/usr/local/share/talkkonnect/soundfiles/events/left.wav" volume="30" blocking="false" enabled="true"/>
+        <sound event="message" file="/usr/local/share/talkkonnect/soundfiles/events/message.wav" volume="10" blocking="true" enabled="true"/>
+        <sound event="alert" file="/usr/local/share/talkkonnect/soundfiles/alerts/alert.wav" volume="10" blocking="false" enabled="false"/>
+        <sound event="incommingbeep" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/Waterdrop.wav" volume="50" blocking="true" enabled="false"/>
+        <sound event="rogerbeep" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/Image.wav" volume="50" blocking="false" enabled="true"/>
         <sound event="stream" file="http://prdonline.prd.go.th:8200" volume="50" blocking="true" enabled="true"/>
-        <sound event="traccarHTTP2XXResponse" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="traccarHTTP4XXResponse" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="traccarTCPConnOK" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="traccarTCPConnRefused" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="traccarTCPConnError" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="traccarTooManyErrors" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="gpsOK" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="gpsDeviceError" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="gpsNoGoodRead" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
-        <sound event="txlockout" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/Comet.wav" volume="100" blocking="false" enabled="true"/>
+        <sound event="traccarHTTP2XXResponse" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="traccarHTTP4XXResponse" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="traccarTCPConnOK" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="traccarTCPConnRefused" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="traccarTCPConnError" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="traccarTooManyErrors" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="gpsOK" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="gpsDeviceError" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="gpsNoGoodRead" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#3.wav" volume="50" blocking="false" enabled="true"/>
+        <sound event="txlockout" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/Comet.wav" volume="100" blocking="false" enabled="true"/>
         <input enabled="true">
-          <sound event="iochanneldown" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iochannelup" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iocnextserver" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iochanneldown" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iocommentoff" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iocommenton" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
-          <sound event="iolisteningstart" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/listeningstart.wav" enabled="false"/>
-          <sound event="iolisteningstop" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/listeningstop.wav" enabled="false"/>
-          <sound event="iomqtt0" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iochanneldown" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iochannelup" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iocnextserver" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iochanneldown" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iocommentoff" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iocommenton" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iolisteningstart" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/listeningstart.wav" enabled="false"/>
+          <sound event="iolisteningstop" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/listeningstop.wav" enabled="false"/>
+          <sound event="iomqtt0" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
           <sound event="iopanic" file="" enabled="false"/>
-          <sound event="iorepeatertone" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
+          <sound event="iorepeatertone" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="false"/>
           <sound event="iorotarycw" file="" enabled="false"/>
           <sound event="iorotaryccw" file="" enabled="false"/>
           <sound event="iostreamtoggle" file="" enabled="false"/>
@@ -167,10 +167,10 @@
           <sound event="iotrackiongon" file="" enabled="false"/>
           <sound event="iotxtogglestart" file="" enabled="false"/>
           <sound event="iotxtogglestop" file="" enabled="false"/>
-          <sound event="iotxpttstart" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/YellowJacket.wav" enabled="false"/>
-          <sound event="iotxpttstop" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RogerBeep3.wav" enabled="false"/>
-          <sound event="iovolup" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
-          <sound event="iovoldown" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
+          <sound event="iotxpttstart" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/YellowJacket.wav" enabled="false"/>
+          <sound event="iotxpttstop" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RogerBeep3.wav" enabled="false"/>
+          <sound event="iovolup" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
+          <sound event="iovoldown" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
           <sound event="usbchannelup" file="" enabled="false"/>
           <sound event="usbchanneldown" file="" enabled="false"/>
           <sound event="usbvolup" file="" enabled="false"/>
@@ -185,8 +185,8 @@
           <sound event="usbstarttx" file="" enabled="false"/>
           <sound event="usbstoptx" file="" enabled="false"/>
           <sound event="usbrecord" file="" enabled="false"/>
-          <sound event="usbvoicetarget" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
-          <sound event="usbmqttpubpayloadset" file="/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
+          <sound event="usbvoicetarget" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
+          <sound event="usbmqttpubpayloadset" file="/usr/local/share/talkkonnect/soundfiles/rogerbeeps/RC210#2.wav" enabled="true"/>
           <sound event="usbstartlisten" file="" enabled="false"/>
           <sound event="usbstoplisten" file="" enabled="false"/>
           <sound event="iochannelup" file="" enabled="false"/>
@@ -469,7 +469,7 @@
         </protocol>
       </traccar>
       <panicfunction enabled="false">
-        <filenameandpath>/home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/soundfiles/alerts/alert.wav</filenameandpath>
+        <filenameandpath>/usr/local/share/talkkonnect/soundfiles/alerts/alert.wav</filenameandpath>
         <volume>10</volume>
         <blocking>false</blocking>
         <sendident>true</sendident>
