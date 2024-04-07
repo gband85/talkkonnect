@@ -27,6 +27,19 @@
 ## Installation BASH Script for talkkonnect version 2 on fresh install of raspbian bullseye
 ## Please RUN this Script as root user
 
+if [ "$SUDO_USER" ]
+then
+    USERNAME=$SUDO_USER
+    echo "USERNAME is $USERNAME"
+elif [ $USER == "root" ]
+    then
+        USERNAME=$USER
+        echo "USERNAME is $USERNAME"
+    else
+        echo "Please run this script with sudo or as root"
+        exit
+fi
+
 ## If this script is run after a fresh install of raspbian you man want to update the 2 lines below
 
 apt-get update
