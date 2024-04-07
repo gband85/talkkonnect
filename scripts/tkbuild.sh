@@ -84,8 +84,8 @@ fi
 #rm /usr/local/bin/go
 ln -sf /usr/local/go/bin/go /usr/local/bin/go
 
-echo "alias tk='cd /home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect/'" >>  ~/.bashrc
-
+echo export GOPATH=/home/$USERNAME/gocode >>  /home/$USERNAME/.bashrc
+echo export GO111MODULE="auto" >>  /home/$USERNAME/.bashrc
 
 ## Set up GOENVIRONMENT
 export GOPATH=/home/$USERNAME/gocode
