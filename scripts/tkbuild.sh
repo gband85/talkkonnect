@@ -43,8 +43,10 @@ fi
 ## If this script is run after a fresh install of raspbian you man want to update the 2 lines below
 
 apt-get update
-apt-get -y dist upgrade
-apt-get install git -y
+apt-get -y upgrade
+
+# Install the dependencies required for talkkonnect
+apt-get -y install libopenal-dev libopus-dev libasound2-dev git ffmpeg mplayer screen pkg-config git
 
 ## Add talkkonnect user to the system
 adduser --disabled-password --disabled-login --gecos "" talkkonnect
@@ -57,7 +59,8 @@ chown root:adm /var/log/talkkonnect.log
 chmod g+r /var/log/talkkonnect.log
 
 # Check Latest of GOLANG 64 Bit Version for Raspberry Pi
-GOLANG_LATEST_STABLE_VERSION=$(curl -s https://go.dev/VERSION?m=text | grep go)
+GOLANG_LATEST_STABLE=$(curl -s https://go.dev/VERSION?m=text | grep go)
+GO_VERSION=$(go version | grep -Po "go[1-9]+\.[1-9]+\.[1-9]+")
 cputype=`lscpu | grep Architecture | cut -d ":" -f 2 | sed 's/ //g'`
 bitsize=`getconf LONG_BIT`
 
@@ -67,12 +70,12 @@ then
 if [ $bitsize == '32' ]
 then
 echo "32 bit processor"
-wget -nc https://go.dev/dl/$GOLANG_LATEST_STABLE_VERSION.linux-armv6l.tar.gz $GOLANG_LATEST_STABLE_VERSION.linux-armv6l.tar.gz
-tar -zxvf /usr/local/$GOLANG_LATEST_STABLE_VERSION.linux-armv6l.tar.gz
+wget -nc https://go.dev/dl/$GOLANG_LATEST_STABLE.linux-armv6l.tar.gz $GOLANG_LATEST_STABLE.linux-armv6l.tar.gz
+tar -zxvf /usr/local/$GOLANG_LATEST_STABLE.linux-armv6l.tar.gz
 else
 echo "64 bit processor"
-wget -nc https://go.dev/dl/$GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz $GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz
-tar -zxvf /usr/local/$GOLANG_LATEST_STABLE_VERSION.linux-arm64.tar.gz
+wget -nc https://go.dev/dl/$GOLANG_LATEST_STABLE.linux-arm64.tar.gz $GOLANG_LATEST_STABLE.linux-arm64.tar.gz
+tar -zxvf /usr/local/$GOLANG_LATEST_STABLE.linux-arm64.tar.gz
 fi
 fi
 
