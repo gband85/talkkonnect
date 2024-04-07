@@ -52,6 +52,8 @@ usermod -a -G cdrom,audio,video,plugdev,users,dialout,dip,input,gpio,adm $USERNA
 
 ## Create the log file
 touch /var/log/talkkonnect.log
+chown root:adm /var/log/talkkonnect.log
+chmod g+r /var/log/talkkonnect.log
 
 # Check Latest of GOLANG 64 Bit Version for Raspberry Pi
 GOLANG_LATEST_STABLE_VERSION=$(curl -s https://go.dev/VERSION?m=text | grep go)
