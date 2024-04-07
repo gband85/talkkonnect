@@ -104,11 +104,11 @@ go mod tidy
 go build -o /usr/local/bin/talkkonnect cmd/talkkonnect/main.go
 #mv talkkonnect-bin /usr/local/bin/talkkonnect 
 
-cp -f sample-configs/talkkonnect-version2-usb-gpio-example.xml /usr/local/etc/talkkonnect.xml
-rm -r /usr/local/share/talkkonnect
-mkdir /usr/local/share/talkkonnect
-cp -rf audio circuit-diagram conf images sample-configs scripts soundfiles /usr/local/share/talkkonnect
-cp -f conf/systemd/talkkonnect.service /etc/systemd/system/
+cp -f sample-configs/talkkonnect-version2-usb-gpio-example.xml $GOPATH/src/github.com/gband85/talkkonnect/talkkonnect.xml
+# rm -r /usr/local/share/talkkonnect
+# mkdir /usr/local/share/talkkonnect
+# cp -rf audio circuit-diagram conf images sample-configs scripts soundfiles /usr/local/share/talkkonnect
+# cp -f conf/systemd/talkkonnect.service /etc/systemd/system/
 chown -R $USERNAME:$USERNAME /home/$USERNAME
 
 ## Notify User
