@@ -90,14 +90,21 @@ go mod init
 go mod tidy
 
 ## Build talkkonnect as binary
-cd $GOPATH/src/github.com/talkkonnect/talkkonnect
-go build -o /home/talkkonnect/bin/talkkonnect cmd/talkkonnect/main.go
+go build -o /usr/local/bin/talkkonnect cmd/talkkonnect/main.go
+#mv talkkonnect-bin /usr/local/bin/talkkonnect 
+
+cp -f sample-configs/talkkonnect-version2-usb-gpio-example.xml /usr/local/etc/talkkonnect.xml
+rm -r /usr/local/share/talkkonnect
+mkdir /usr/local/share/talkkonnect
+cp -rf audio circuit-diagram conf images sample-configs scripts soundfiles /usr/local/share/talkkonnect
+cp -f conf/systemd/talkkonnect.service /etc/systemd/system/
+chown -R $USERNAME:$USERNAME /home/$USERNAME
 
 ## Notify User
 echo "=> Finished building TalKKonnect"
-echo "=> talkkonnect binary is in /home/talkkonect/bin"
+echo "=> talkkonnect binary is in /usr/local/bin"
 echo "=> Now enter Mumble server connectivity details"
-echo "talkkonnect.xml from $GOPATH/src/github.com/talkkonnect/talkkonnect"
+echo "talkkonnect.xml from /user/local/etc/"
 echo "and configure talkkonnect features. Happy talkkonnecting!!"
 
 exit
