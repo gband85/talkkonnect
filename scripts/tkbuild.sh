@@ -74,19 +74,18 @@ echo "alias tk='cd /home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonne
 
 
 ## Set up GOENVIRONMENT
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=/home/talkkonnect/gocode
-export GOBIN=/home/talkkonnect/bin
+export GOPATH=/home/$USERNAME/gocode
 export GO111MODULE="auto"
+
+## Create the necessary directory structure under /home/$USERNAME
+rm -r $GOPATH
+mkdir -p $GOPATH/src/github.com/gband85
+cd $GOPATH/src/github.com/gband85
 
 ## Get the latest source code of talkkonnect from github.com
 echo "installing talkkonnect with traditional method avoiding go get cause its changed in golang 1.22 "
-cd $GOPATH
-mkdir -p /home/talkkonnect/gocode/src/github.com/talkkonnect
-cd /home/talkkonnect/gocode/src/github.com/talkkonnect
-git clone https://github.com/talkkonnect/talkkonnect
-cd /home/talkkonnect/gocode/src/github.com/talkkonnect/talkkonnect
-go mod init
+git clone https://github.com/gband85/talkkonnect
+cd talkkonnect
 go mod tidy
 
 ## Build talkkonnect as binary
